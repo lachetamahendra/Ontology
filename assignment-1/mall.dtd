@@ -1,0 +1,72 @@
+<!ELEMENT shopping_mall (shopping_mall_name, building+, parking*, address)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT shopping_mall_name (#PCDATA)>
+
+<!ELEMENT building (floor ,no_of_floors)>
+<!ELEMENT no_of_floors (#PCDATA)>
+<!ELEMENT floor (shop* , resturant* , multiplex* , gaming_zone*)>
+<!ELEMENT shop (shop_name, shop_number,employee* , timings ,floor_no ,category_type, product*,website,phone+)>
+<!ATTLIST shop rating CDATA #IMPLIED>
+<!ELEMENT shop_name (#PCDATA)>
+<!ELEMENT floor_no (#PCDATA)>
+<!ELEMENT shop_number (#PCDATA)>
+<!ELEMENT timings (opening,closing)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT opening (#PCDATA)>
+<!ELEMENT closing (#PCDATA)>
+<!ELEMENT category_type (#PCDATA)>
+<!ELEMENT product (product_name, product_color?, product_brand,product_price,product_detail)>
+<!ATTLIST product rating CDATA #IMPLIED>
+<!ATTLIST  product warrenty CDATA #IMPLIED>
+<!ATTLIST  product product_number CDATA #REQUIRED>
+<!ELEMENT product_name (#PCDATA)>
+<!ELEMENT product_color (#PCDATA)>
+<!ELEMENT product_price (#PCDATA)>
+<!ELEMENT product_brand (#PCDATA)>
+<!ELEMENT product_detail (#PCDATA)>
+
+<!ELEMENT resturant (res_name , floor_no, timings , website? , phone+ , cuisine*)>
+<!ATTLIST resturant rating CDATA #IMPLIED>
+<!ATTLIST  resturant registration_no CDATA #REQUIRED>
+<!ATTLIST  resturant veg CDATA #IMPLIED>
+<!ATTLIST  resturant non_veg CDATA #IMPLIED>
+<!ELEMENT res_name (#PCDATA)>
+<!ELEMENT cuisine (name ,price , quantity)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT multiplex (multi_name , floor_no, timings , movie*, website? , phone+)>
+<!ELEMENT multi_name (#PCDATA)>
+<!ELEMENT movie (movie_name , movie_duration , ticket_price ,hall_number)>
+<!ATTLIST movie rating CDATA #IMPLIED>
+<!ELEMENT movie_name (#PCDATA)>
+<!ELEMENT hall_number (#PCDATA)>
+<!ELEMENT movie_duration (#PCDATA)>
+<!ELEMENT ticket_price (#PCDATA)>
+
+<!ELEMENT gaming_zone (floor_no , games*)>
+<!ELEMENT games (game_name , price_per_head , number_of_player , age_limit)>
+<!ELEMENT game_name (#PCDATA)>
+<!ELEMENT price_per_head (#PCDATA)>
+<!ELEMENT number_of_player (#PCDATA)>
+<!ELEMENT age_limit (#PCDATA)>
+
+<!ELEMENT parking (no_of_spaces,address,vehicles*)>
+<!ATTLIST  parking full_or_vacant CDATA #IMPLIED>
+<!ELEMENT no_of_spaces (#PCDATA)>
+<!ELEMENT vehicles (vehicle_detail , vehicle_no  , parking_price)>
+<!ELEMENT vehicle_no (#PCDATA)>
+<!ELEMENT parking_price (#PCDATA)>
+<!ELEMENT vehicle_detail ( vehicle_type,vehicle_name ,owner_detail)>
+<!ATTLIST vehicle_detail public_or_private CDATA #IMPLIED>
+<!ELEMENT owner_detail (owner_name , owner_contact , owner_email?)>
+<!ELEMENT vehicle_type (#PCDATA) >
+<!ELEMENT vehicle_name (#PCDATA)>
+<!ELEMENT owner_name (first_name , middle_name? , last_name)>
+<!ATTLIST owner_name gender CDATA #IMPLIED>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT middle_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT owner_contact (#PCDATA)>
+<!ELEMENT owner_email (#PCDATA)>

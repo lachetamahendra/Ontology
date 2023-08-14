@@ -1,0 +1,47 @@
+
+susmit
+1)//building/no_of_floors
+2)//shop/product/product_name[../product_price >1500]
+3)//resturant/res_name[normalize-space(../@non_veg)="yes"]
+4)//resturant/cuisine/price[normalize-space(../name)="cold drink"]
+5)//product/product_name[../product_price > 10000 and ../product_price< 50000 and
+		normalize-space(../@warrenty) > "0" and 
+         ../normalize-space(../category_type)="Electronics"]
+6)for $i in //movie return $i/movie_name[../@rating > "4.0"]
+
+
+susmit 
+number of vehicles in parking.
+1)for $p in //parking return count($p/vehicles)
+
+display price of game per head 
+
+2)for $p in //gaming_zone/games
+where $p//game_name = "Snooker"
+return $p//price_per_head
+
+name of dishes which price is less than rs250 from non_veg resturant. 
+
+3)let $dish := //resturant
+where $dish/@non_veg = "yes"
+return $dish//cuisine[price < 250]/name
+
+4)display the product_brand and product_name sorted by product_name.
+
+for $x in //shop/product
+where $x/product_price>1000 and $x/product_price<5000
+order by $x/product_name
+return 
+	<product>
+	<product_name>{data($x/product_name)}</product_name>
+	<product_brand>{data($x/product_brand)}</product_brand>
+	</product>
+
+5)for $i in //movie
+where $i/@rating > 3.5
+return 
+ 	<movie_detail>
+    	<movie_name>{data($i/movie_name)}</movie_name>
+        <movie_rating>{data($i/@rating)}</movie_rating>
+        <movie_duration>{data($i/movie_duration)}</movie_duration>
+    </movie_detail>

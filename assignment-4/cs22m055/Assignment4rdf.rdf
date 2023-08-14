@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:Shopping_Mall="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Parking">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nde03d1061594479da4a2182f26901967"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#restaurant_name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#restaurant_rating">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop-3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-2"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#JweleryShop"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+    <Shopping_Mall:floorHasShop rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop-3"/>
+    <Shopping_Mall:hasCategory rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-5"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-1"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-2"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-3"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-4"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-5"/>
+    <Shopping_Mall:shop_name>Tanishaka Jweller</Shopping_Mall:shop_name>
+    <Shopping_Mall:shop_rating>4.5</Shopping_Mall:shop_rating>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a1658aea8614432837ef8cc7f4fa92a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasCategory"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#JwelleryItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Heavy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#GarmentShop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N636269d530754751892ab231773872a7"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-2"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#GarmentShop"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+    <Shopping_Mall:floorHasShop rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop-2"/>
+    <Shopping_Mall:hasCategory rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-3"/>
+    <Shopping_Mall:hasCategory rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-4"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-1"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-2"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-3"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-4"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-5"/>
+    <Shopping_Mall:shop_name>Loot Mara</Shopping_Mall:shop_name>
+    <Shopping_Mall:shop_rating>4</Shopping_Mall:shop_rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Cuisine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N069d64b3c0564a6e82bc6419cc937ac5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Ground_Floor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Items"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#employee-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Emloyee"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person"/>
+    <Shopping_Mall:workOn rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop-1"/>
+    <Shopping_Mall:first_name>Ramu</Shopping_Mall:first_name>
+    <Shopping_Mall:last_name>Kaka</Shopping_Mall:last_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product_rating">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#GarmentItem"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products"/>
+    <Shopping_Mall:product_name>Peter England</Shopping_Mall:product_name>
+    <Shopping_Mall:product_rating>4.5</Shopping_Mall:product_rating>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na46fe5c4228849a585f995b3fcc4ce7a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasCategory"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#JweleryShop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N7a1658aea8614432837ef8cc7f4fa92a"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#GarmentItem"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products"/>
+    <Shopping_Mall:product_name>Denim</Shopping_Mall:product_name>
+    <Shopping_Mall:product_rating>4</Shopping_Mall:product_rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasOwner">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#VehicelOwner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#roti">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Food"/>
+    <Shopping_Mall:servedBy rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant-2"/>
+    <Shopping_Mall:servedBy rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#restaurant-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#GarmentItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Items"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shopOwner1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shopOwner"/>
+    <Shopping_Mall:first_name>Ram</Shopping_Mall:first_name>
+    <Shopping_Mall:last_name>Lal</Shopping_Mall:last_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#employee-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Emloyee"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person"/>
+    <Shopping_Mall:workOn rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant-2"/>
+    <Shopping_Mall:first_name>Sudhakar</Shopping_Mall:first_name>
+    <Shopping_Mall:last_name>Singh</Shopping_Mall:last_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-3"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#NonVeg_restaurant"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Veg_restaurant"/>
+    <Shopping_Mall:floorHasShop rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant-2"/>
+    <Shopping_Mall:restaurant_name>Zaitoon</Shopping_Mall:restaurant_name>
+    <Shopping_Mall:restaurant_rating>4</Shopping_Mall:restaurant_rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#last_name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product_name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#PublicVehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#VehicleType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Chicken">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Food"/>
+    <Shopping_Mall:servedBy rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasParked">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#panner">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Food"/>
+    <Shopping_Mall:servedBy rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant-2"/>
+    <Shopping_Mall:servedBy rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#restaurant-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N932a1f3df39f45b4a9c591229b9aef3e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N6efa5fca613f47cbb6faa49b03d5d554"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#vechileOwner1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#VehicelOwner"/>
+    <Shopping_Mall:OwnsVehicle rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#vehicle-1"/>
+    <Shopping_Mall:first_name>rocky</Shopping_Mall:first_name>
+    <Shopping_Mall:last_name>Bhai</Shopping_Mall:last_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#VehicleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#restaurant-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-3"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Veg_restaurant"/>
+    <Shopping_Mall:floorHasShop rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#restaurant-1"/>
+    <Shopping_Mall:restaurant_name>Panjabi_dhaba</Shopping_Mall:restaurant_name>
+    <Shopping_Mall:restaurant_rating>4.5</Shopping_Mall:restaurant_rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicShop"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#FirstFloorElectronicShop"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-1"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+    <Shopping_Mall:floorHasShop rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop-1"/>
+    <Shopping_Mall:hasCategory rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-1"/>
+    <Shopping_Mall:hasCategory rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-2"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-1"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-2"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-3"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-4"/>
+    <Shopping_Mall:hasProduct rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-5"/>
+    <Shopping_Mall:shop_name>Gadha Electronics</Shopping_Mall:shop_name>
+    <Shopping_Mall:shop_rating>5</Shopping_Mall:shop_rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#first_name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Items">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#JwelleryItem"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products"/>
+    <Shopping_Mall:product_name>gold ring</Shopping_Mall:product_name>
+    <Shopping_Mall:product_rating>3.5</Shopping_Mall:product_rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#vehicle-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Heavy"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+    <Shopping_Mall:vehicle_name>Volvo</Shopping_Mall:vehicle_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#vehicle-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#4-wheeler"/>
+    <Shopping_Mall:vehicle_name>BMW_8X</Shopping_Mall:vehicle_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#PrivateVehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N6c654bb191a640ca84abbc18fd41af35"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#VehicleType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Emloyee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicItem"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products"/>
+    <Shopping_Mall:product_name>Volta</Shopping_Mall:product_name>
+    <Shopping_Mall:product_rating>4</Shopping_Mall:product_rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#FirstFloorElectronicShop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicShop"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6c654bb191a640ca84abbc18fd41af35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasOwner"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#VehicelOwner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#product-1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicItem"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products"/>
+    <Shopping_Mall:product_name>L.G</Shopping_Mall:product_name>
+    <Shopping_Mall:product_rating>4.5</Shopping_Mall:product_rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#NonVeg_restaurant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasProduct">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#workOn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N231a51cf227d4c24b2fdf09518762e53">
+    <rdf:first rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#JweleryShop"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#JwelleryItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Items"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nde03d1061594479da4a2182f26901967">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasParked"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N069d64b3c0564a6e82bc6419cc937ac5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#servedBy"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasFirstFloor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicShopFloorNo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N8326b098f2e746c0b8475865d79405f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Food">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicShop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Na46fe5c4228849a585f995b3fcc4ce7a"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8326b098f2e746c0b8475865d79405f4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#floorHasShop"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicShop"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6efa5fca613f47cbb6faa49b03d5d554">
+    <rdf:first rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ElectronicShop"/>
+    <rdf:rest rdf:nodeID="Naa55a90589bb4352a831859b292ee39a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa55a90589bb4352a831859b292ee39a">
+    <rdf:first rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#GarmentShop"/>
+    <rdf:rest rdf:nodeID="N231a51cf227d4c24b2fdf09518762e53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#floorHasShop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Veg_restaurant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Products">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop_rating">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N636269d530754751892ab231773872a7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasCategory"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#GarmentItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#hasCategory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Items"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shopOwner">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#VehicelOwner">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#servedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Food"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Restaurant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#4-wheeler">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#OwnsVehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#VehicelOwner"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#2-wheeler">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#ShopEmployee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#vehicle_name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#shop_name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Shops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall#Vehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>

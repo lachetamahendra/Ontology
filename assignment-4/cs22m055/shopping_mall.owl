@@ -1,0 +1,1011 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/home/ontologies/2023/3/Shopping_Mall">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#2-wheeler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-wheeler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronicItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronicShop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronicShopFloorNo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emloyee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FirstFloorElectronicShop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor-3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GarmentItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GarmentShop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ground_Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Items"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JweleryShop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JwelleryItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonVeg_restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrivateVehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicVehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShopEmployee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Veg_restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VehicelOwner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VehicleType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shopOwner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OwnsVehicle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#floorHasShop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFirstFloor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOwner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParked"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProduct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#servedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workOn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#first_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#last_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#product_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#product_rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#restaurant_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#restaurant_rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#shop_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#shop_rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vehicle_name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chicken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#employee-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#employee-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#panner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#product-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#product-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#product-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#product-4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#product-5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#restaurant-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#roti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shop-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shop-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shop-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shopOwner1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vechileOwner1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vehicle-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vehicle-2"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Cuisine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servedBy"/>
+            <Class IRI="#Restaurant"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ElectronicShop"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCategory"/>
+            <Class IRI="#ElectronicItem"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ElectronicShopFloorNo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#floorHasShop"/>
+            <Class IRI="#ElectronicShop"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GarmentShop"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCategory"/>
+            <Class IRI="#GarmentItem"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#JweleryShop"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCategory"/>
+            <Class IRI="#JwelleryItem"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Parking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParked"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PrivateVehicle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOwner"/>
+            <Class IRI="#VehicelOwner"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#2-wheeler"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-wheeler"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectronicItem"/>
+        <Class IRI="#Items"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectronicShop"/>
+        <Class IRI="#Shops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emloyee"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FirstFloorElectronicShop"/>
+        <Class IRI="#ElectronicShop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FirstFloorElectronicShop"/>
+        <Class IRI="#Floor-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor-1"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor-2"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor-3"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GarmentItem"/>
+        <Class IRI="#Items"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GarmentShop"/>
+        <Class IRI="#Shops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ground_Floor"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heavy"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JweleryShop"/>
+        <Class IRI="#Shops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JwelleryItem"/>
+        <Class IRI="#Items"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonVeg_restaurant"/>
+        <Class IRI="#Restaurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking"/>
+        <Class IRI="#Floor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrivateVehicle"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrivateVehicle"/>
+        <Class IRI="#VehicleType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicVehicle"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicVehicle"/>
+        <Class IRI="#VehicleType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Veg_restaurant"/>
+        <Class IRI="#Restaurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VehicelOwner"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shopOwner"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ElectronicShop"/>
+        <Class IRI="#GarmentShop"/>
+        <Class IRI="#JweleryShop"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Chicken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Floor-3"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NonVeg_restaurant"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Veg_restaurant"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emloyee"/>
+        <NamedIndividual IRI="#employee-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#employee-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emloyee"/>
+        <NamedIndividual IRI="#employee-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#employee-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#panner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElectronicItem"/>
+        <NamedIndividual IRI="#product-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Products"/>
+        <NamedIndividual IRI="#product-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElectronicItem"/>
+        <NamedIndividual IRI="#product-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Products"/>
+        <NamedIndividual IRI="#product-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GarmentItem"/>
+        <NamedIndividual IRI="#product-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Products"/>
+        <NamedIndividual IRI="#product-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GarmentItem"/>
+        <NamedIndividual IRI="#product-4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Products"/>
+        <NamedIndividual IRI="#product-4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JwelleryItem"/>
+        <NamedIndividual IRI="#product-5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Products"/>
+        <NamedIndividual IRI="#product-5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Floor-3"/>
+        <NamedIndividual IRI="#restaurant-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Veg_restaurant"/>
+        <NamedIndividual IRI="#restaurant-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#roti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElectronicShop"/>
+        <NamedIndividual IRI="#shop-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FirstFloorElectronicShop"/>
+        <NamedIndividual IRI="#shop-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Floor-1"/>
+        <NamedIndividual IRI="#shop-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shops"/>
+        <NamedIndividual IRI="#shop-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Floor-2"/>
+        <NamedIndividual IRI="#shop-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GarmentShop"/>
+        <NamedIndividual IRI="#shop-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shops"/>
+        <NamedIndividual IRI="#shop-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Floor-2"/>
+        <NamedIndividual IRI="#shop-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JweleryShop"/>
+        <NamedIndividual IRI="#shop-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shops"/>
+        <NamedIndividual IRI="#shop-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#shopOwner"/>
+        <NamedIndividual IRI="#shopOwner1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VehicelOwner"/>
+        <NamedIndividual IRI="#vechileOwner1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#4-wheeler"/>
+        <NamedIndividual IRI="#vehicle-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heavy"/>
+        <NamedIndividual IRI="#vehicle-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle"/>
+        <NamedIndividual IRI="#vehicle-2"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servedBy"/>
+        <NamedIndividual IRI="#Chicken"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#floorHasShop"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#workOn"/>
+        <NamedIndividual IRI="#employee-1"/>
+        <NamedIndividual IRI="#shop-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#workOn"/>
+        <NamedIndividual IRI="#employee-2"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servedBy"/>
+        <NamedIndividual IRI="#panner"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servedBy"/>
+        <NamedIndividual IRI="#panner"/>
+        <NamedIndividual IRI="#restaurant-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#floorHasShop"/>
+        <NamedIndividual IRI="#restaurant-1"/>
+        <NamedIndividual IRI="#restaurant-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servedBy"/>
+        <NamedIndividual IRI="#roti"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servedBy"/>
+        <NamedIndividual IRI="#roti"/>
+        <NamedIndividual IRI="#restaurant-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#floorHasShop"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <NamedIndividual IRI="#shop-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCategory"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <NamedIndividual IRI="#product-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCategory"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <NamedIndividual IRI="#product-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <NamedIndividual IRI="#product-4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <NamedIndividual IRI="#product-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <NamedIndividual IRI="#product-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <NamedIndividual IRI="#product-5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <NamedIndividual IRI="#product-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#floorHasShop"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <NamedIndividual IRI="#shop-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCategory"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <NamedIndividual IRI="#product-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCategory"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <NamedIndividual IRI="#product-4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <NamedIndividual IRI="#product-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <NamedIndividual IRI="#product-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <NamedIndividual IRI="#product-5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <NamedIndividual IRI="#product-4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <NamedIndividual IRI="#product-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#floorHasShop"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <NamedIndividual IRI="#shop-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCategory"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <NamedIndividual IRI="#product-5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <NamedIndividual IRI="#product-2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <NamedIndividual IRI="#product-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <NamedIndividual IRI="#product-1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <NamedIndividual IRI="#product-5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <NamedIndividual IRI="#product-4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OwnsVehicle"/>
+        <NamedIndividual IRI="#vechileOwner1"/>
+        <NamedIndividual IRI="#vehicle-1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#restaurant_name"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+        <Literal datatypeIRI="&xsd;string">Zaitoon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#restaurant_rating"/>
+        <NamedIndividual IRI="#Restaurant-2"/>
+        <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#first_name"/>
+        <NamedIndividual IRI="#employee-1"/>
+        <Literal datatypeIRI="&xsd;string">Ramu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#last_name"/>
+        <NamedIndividual IRI="#employee-1"/>
+        <Literal datatypeIRI="&xsd;string">Kaka</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#first_name"/>
+        <NamedIndividual IRI="#employee-2"/>
+        <Literal datatypeIRI="&xsd;string">Sudhakar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#last_name"/>
+        <NamedIndividual IRI="#employee-2"/>
+        <Literal datatypeIRI="&xsd;string">Singh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_name"/>
+        <NamedIndividual IRI="#product-1"/>
+        <Literal datatypeIRI="&xsd;string">L.G</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_rating"/>
+        <NamedIndividual IRI="#product-1"/>
+        <Literal datatypeIRI="&xsd;int">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_name"/>
+        <NamedIndividual IRI="#product-2"/>
+        <Literal datatypeIRI="&xsd;string">Volta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_rating"/>
+        <NamedIndividual IRI="#product-2"/>
+        <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_name"/>
+        <NamedIndividual IRI="#product-3"/>
+        <Literal datatypeIRI="&xsd;string">Denim</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_rating"/>
+        <NamedIndividual IRI="#product-3"/>
+        <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_name"/>
+        <NamedIndividual IRI="#product-4"/>
+        <Literal datatypeIRI="&xsd;string">Peter England</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_rating"/>
+        <NamedIndividual IRI="#product-4"/>
+        <Literal datatypeIRI="&xsd;int">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_name"/>
+        <NamedIndividual IRI="#product-5"/>
+        <Literal datatypeIRI="&xsd;string">gold ring</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#product_rating"/>
+        <NamedIndividual IRI="#product-5"/>
+        <Literal datatypeIRI="&xsd;int">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#restaurant_name"/>
+        <NamedIndividual IRI="#restaurant-1"/>
+        <Literal datatypeIRI="&xsd;string">Panjabi_dhaba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#restaurant_rating"/>
+        <NamedIndividual IRI="#restaurant-1"/>
+        <Literal datatypeIRI="&xsd;int">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shop_name"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <Literal datatypeIRI="&xsd;string">Gadha Electronics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shop_rating"/>
+        <NamedIndividual IRI="#shop-1"/>
+        <Literal datatypeIRI="&xsd;int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shop_name"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <Literal datatypeIRI="&xsd;string">Loot Mara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shop_rating"/>
+        <NamedIndividual IRI="#shop-2"/>
+        <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shop_name"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <Literal datatypeIRI="&xsd;string">Tanishaka Jweller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shop_rating"/>
+        <NamedIndividual IRI="#shop-3"/>
+        <Literal datatypeIRI="&xsd;int">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#first_name"/>
+        <NamedIndividual IRI="#shopOwner1"/>
+        <Literal datatypeIRI="&xsd;string">Ram</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#last_name"/>
+        <NamedIndividual IRI="#shopOwner1"/>
+        <Literal datatypeIRI="&xsd;string">Lal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#first_name"/>
+        <NamedIndividual IRI="#vechileOwner1"/>
+        <Literal datatypeIRI="&xsd;string">rocky</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#last_name"/>
+        <NamedIndividual IRI="#vechileOwner1"/>
+        <Literal datatypeIRI="&xsd;string">Bhai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vehicle_name"/>
+        <NamedIndividual IRI="#vehicle-1"/>
+        <Literal datatypeIRI="&xsd;string">BMW_8X</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vehicle_name"/>
+        <NamedIndividual IRI="#vehicle-2"/>
+        <Literal datatypeIRI="&xsd;string">Volvo</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OwnsVehicle"/>
+        <Class IRI="#VehicelOwner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#floorHasShop"/>
+        <Class IRI="#Floor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCategory"/>
+        <Class IRI="#Shops"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFirstFloor"/>
+        <Class IRI="#Shops"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOwner"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParked"/>
+        <Class IRI="#Floor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProduct"/>
+        <Class IRI="#Shops"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#servedBy"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#workOn"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OwnsVehicle"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#floorHasShop"/>
+        <Class IRI="#Restaurant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#floorHasShop"/>
+        <Class IRI="#Shops"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCategory"/>
+        <Class IRI="#Items"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFirstFloor"/>
+        <Class IRI="#Floor-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOwner"/>
+        <Class IRI="#VehicelOwner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParked"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProduct"/>
+        <Class IRI="#Products"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#servedBy"/>
+        <Class IRI="#Restaurant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workOn"/>
+        <Class IRI="#Restaurant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workOn"/>
+        <Class IRI="#Shops"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#first_name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#last_name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#product_name"/>
+        <Class IRI="#Products"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#product_rating"/>
+        <Class IRI="#Products"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#restaurant_name"/>
+        <Class IRI="#Restaurant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#restaurant_rating"/>
+        <Class IRI="#Restaurant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#shop_name"/>
+        <Class IRI="#Shops"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#shop_rating"/>
+        <Class IRI="#Shops"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vehicle_name"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#first_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#last_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#product_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#product_rating"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#restaurant_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#restaurant_rating"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#shop_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#shop_rating"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vehicle_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,353 @@
+<?xml version = "1.0"?>
+
+<!DOCTYPE shopping_mall SYSTEM "mall.dtd">
+<shopping_mall>
+	<shopping_mall_name> Phoenix Market City </shopping_mall_name>
+	<building>
+		<floor>
+			<shop rating ="4.3">
+				<shop_name>Calvin Kelin Jeans</shop_name>
+				<shop_number>1</shop_number>
+				<timings>
+					<opening>10:00 </opening>
+					<closing>20:00 </closing>
+				</timings>
+				<floor_no>0</floor_no>
+				<category_type>men's and women's clothing</category_type>
+				<product rating="4.0" warrenty ="1" product_number="2355">
+					<product_name>T-Shirts</product_name>
+					<product_color>red</product_color>
+					<product_brand>Calvin Klein</product_brand>
+					<product_price>1500</product_price>
+					<product_detail>
+						Fine mini stripes for a sporty design. Smooth compact cotton for effortless, extra sleek comfort. Regular fit: relaxed through arms, comfortable fit around body
+						Crewneck and short sleeves, Straight hem, topstitching and seaming details Machine wash 100% cotton Imported Model is approximately 6'1" wearing size Medium 28.75" garment length
+					</product_detail>
+				</product>
+				<product rating="4.0" warrenty ="1" product_number="2355">
+					<product_name>Jeans</product_name>
+					<product_color>blue</product_color>
+					<product_brand>Calvin Klein</product_brand>
+					<product_price>2000</product_price>
+					<product_detail>
+						Obsession over every detail. Minimal, essential, considered designs redefined in gender inclusive silhouettes. Crafted from rigid cotton denim,
+						these jeans are relaxed to sit below the hip with tapered legs. Inspired by raw cotton vintage jeans from the 50’s and 60’s,
+						these jeans are cut to capture a shrink-to-fit look with twisted leg seams and slightly shrunken inseam.
+					</product_detail>
+				</product>
+				<product rating="3.5" product_number="2355">
+					<product_name>Hoodie</product_name>
+					<product_color>Green</product_color>
+					<product_brand>Calvin klein</product_brand>
+					<product_price>2000</product_price>
+					<product_detail>
+						An iconic design, essential to any collection. This Calvin Klein sweatshirt displays a retro-inspired monogram
+						logo at front in a plush cotton knit blend for premium comfort. Finished with a drawstring hood, a kangaroo pocket and ribbed knit
+						trim for a snug fit.
+					</product_detail>
+				</product>
+				<website>https://www.calvinklein.us</website>
+				<phone>04461343008</phone>
+			</shop>
+
+			<shop rating ="3.5">
+				<shop_name>MI</shop_name>
+				<shop_number>2</shop_number>
+				<timings>
+					<opening>10:00</opening>
+					<closing>20:00</closing>
+				</timings>
+				<floor_no>1</floor_no>
+				<category_type>Electronics</category_type>
+				<product rating="4.0" warrenty ="1" product_number="2355">
+					<product_name>Xiaomi 11T pro 5g</product_name>
+					<product_color>Black</product_color>
+					<product_brand>MI</product_brand>
+					<product_price>36999</product_price>
+					<product_detail>
+						Xiaomi 11T Pro 5G comes with HyperView, a 120Hz True 10-bit AMOLED Display (which gets you 1.07 billion colors), &amp; Dolby Vision.
+						It is also our most awarded display with 14+ DisplayMate A+ awards.
+					</product_detail>
+				</product>
+				<product rating="4.3" warrenty ="1" product_number="2355">
+					<product_name>Mi Wired Headset</product_name>
+					<product_color>black</product_color>
+					<product_brand>MI</product_brand>
+					<product_price>424</product_price>
+					<product_detail>
+						With Mic:Yes
+						Connector type: 3.5 mm
+						Extra bass: Add extra thump to your music
+						One button universal remote to answer and manage your calls
+					</product_detail>
+				</product>
+				<website>https://www.mi.com </website>
+				<phone>044543345</phone>
+			</shop>
+
+			<shop rating ="4">
+				<shop_name>Voylla</shop_name>
+				<shop_number>10</shop_number>
+				<timings>
+					<opening>10:00</opening>
+					<closing>20:00</closing>
+				</timings>
+				<floor_no>2</floor_no>
+				<category_type>Jewellery &amp; Fashion Accessories</category_type>
+				<product rating="4.0" warrenty ="1" product_number="8905124454871">
+					<product_name>Sterling silver stylish Ring</product_name>
+					<product_color>Silver</product_color>
+					<product_brand>Voylla</product_brand>
+					<product_price>1569</product_price>
+					<product_detail>
+						Weight (Gms): 3
+						Size (LxW)(Inch): 0.6*0.4
+						Material: 925 Sterling Silver
+						Plating: Anti Tarnish
+					</product_detail>
+				</product>
+				<product rating="4.0" warrenty ="1" product_number=" 8905124441932">
+					<product_name>925 Sterling silver CZ Flower Shape Diamond Pendant</product_name>
+					<product_color>Siler</product_color>
+					<product_brand>Voylla</product_brand>
+					<product_price>3119</product_price>
+					<product_detail>
+						Weight (Gms): 6.29
+						Size (LxW)(Inch): 18*0.9
+						Material: 925 Sterling Silver
+						Plating: White Rhodium
+					</product_detail>
+				</product>
+				<product rating="4.0" warrenty ="1" product_number="2355">
+					<product_name>Blue CZ Earring</product_name>
+					<product_color>Gold</product_color>
+					<product_brand>Voylla</product_brand>
+					<product_price>4119</product_price>
+					<product_detail>
+						Weight (Gms): 1
+						Size (LxW)(Inch): 0.04*0.04
+						Material: 925 Sterling Silver
+						Plating: Anti Tarnish
+					</product_detail>
+				</product>
+				<website>https://www.voylla.com/</website>
+				<phone>044454648</phone>
+			</shop>
+
+			<resturant rating="3.5" registration_no="3243" veg="no" non_veg="yes">
+				<res_name>Wow Momo</res_name>
+				<floor_no>3</floor_no>
+				<timings>
+					<opening>10:00</opening>
+					<closing>20:00</closing>
+				</timings>
+				<website>https://www.Wowmomo.com/</website>
+				<phone>6374832454</phone>
+				<cuisine>
+					<name> veg steamed momos</name>
+					<price> 150</price>
+					<quantity> 10 </quantity>
+				</cuisine>
+				<cuisine>
+					<name> Burger </name>
+					<price> 100</price>
+					<quantity> 1</quantity>
+				</cuisine>
+				<cuisine>
+					<name> chickenwings </name>
+					<price> 200</price>
+					<quantity> 5</quantity>
+				</cuisine>
+				<cuisine>
+					<name> cold drink</name>
+					<price>50</price>
+					<quantity>250ml </quantity>
+				</cuisine>
+			</resturant>
+
+			<resturant rating="4" registration_no="343" veg="no" non_veg="yes">
+				<res_name> Dominos</res_name>
+				<floor_no> 3</floor_no>
+				<timings>
+					<opening> 10:00</opening>
+					<closing> 20:00</closing>
+				</timings>
+				<website> www.dominos.in</website>
+				<phone> 8569944922</phone>
+				<cuisine>
+					<name> margerita pizza </name>
+					<price> 260</price>
+					<quantity> 1</quantity>
+				</cuisine>
+				<cuisine>
+					<name> chicken pizza</name>
+					<price> 900</price>
+					<quantity> 2</quantity>
+				</cuisine>
+				<cuisine>
+					<name> cheese garlic bread</name>
+					<price> 200 </price>
+					<quantity> 5 </quantity>
+				</cuisine>
+
+			</resturant>
+
+			<resturant rating="4" registration_no="12343" veg="yes" non_veg="no">
+				<res_name> punjabi_zaika </res_name>
+				<floor_no> 3</floor_no>
+				<timings>
+					<opening> 11:00</opening>
+					<closing> 2:00</closing>
+				</timings>
+				<website> www.punjabi_zaika..com </website>
+				<phone> 4567142895</phone>
+				<cuisine>
+					<name> Punjabi_paneer</name>
+					<price>300</price>
+					<quantity> 500gm </quantity>
+				</cuisine>
+				<cuisine>
+					<name> paneer_achari</name>
+					<price>350</price>
+					<quantity> 500gm </quantity>
+				</cuisine>
+				<cuisine>
+					<name> Lassi</name>
+					<price> 130</price>
+					<quantity> 350ml </quantity>
+				</cuisine>
+				<cuisine>
+					<name> Butter_naan</name>
+					<price> 30</price>
+					<quantity> 1 </quantity>
+				</cuisine>
+				<cuisine>
+					<name> Lacha_paratha</name>
+					<price> 100</price>
+					<quantity> 2 </quantity>
+				</cuisine>
+			</resturant>
+
+			<multiplex>
+				<multi_name> PVR</multi_name>
+				<floor_no> 4 </floor_no>
+				<timings>
+					<opening> 10:00</opening>
+					<closing> 24:00</closing>
+				</timings>
+
+				<movie rating ="4.0">
+					<movie_name> Pathan</movie_name>
+					<movie_duration> 2.50hr</movie_duration>
+					<ticket_price> 300</ticket_price>
+					<hall_number> 1 </hall_number>
+				</movie>
+				<movie rating ="4.5">
+					<movie_name> Avatar</movie_name>
+					<movie_duration> 3.00hr</movie_duration>
+					<ticket_price> 450</ticket_price>
+					<hall_number> 4 </hall_number>
+				</movie>
+				<movie rating ="2.8">
+					<movie_name> Bhedia</movie_name>
+					<movie_duration> 2.30hr</movie_duration>
+					<ticket_price> 250</ticket_price>
+					<hall_number> 2 </hall_number>
+				</movie>
+				<website> www.pvr_cinemas.com </website>
+				<phone> 1110066060</phone>
+			</multiplex>
+
+
+			<gaming_zone>
+				<floor_no>3</floor_no>
+				<games>
+					<game_name>Fosball</game_name>
+					<price_per_head>  50 </price_per_head>
+					<number_of_player>  2 </number_of_player>
+					<age_limit>  10 </age_limit>
+				</games>
+				<games>
+					<game_name>  basketball </game_name>
+					<price_per_head>  20 </price_per_head>
+					<number_of_player>  1 </number_of_player>
+					<age_limit>  8 </age_limit>
+				</games>
+			</gaming_zone>
+			<gaming_zone>
+				<floor_no>4</floor_no>
+				<games>
+					<game_name> net_cricket </game_name>
+					<price_per_head>  100 </price_per_head>
+					<number_of_player>  1 </number_of_player>
+					<age_limit>  12 </age_limit>
+				</games>
+				<games>
+					<game_name>Snooker</game_name>
+					<price_per_head>  100 </price_per_head>
+					<number_of_player>  4 </number_of_player>
+					<age_limit>  15 </age_limit>
+				</games>
+			</gaming_zone>
+		</floor>
+		<no_of_floors>  4 </no_of_floors>
+	</building>
+	<parking full_or_vacant="vacant">
+		<no_of_spaces>100</no_of_spaces>
+		<address>Basement</address>
+		<vehicles>
+			<vehicle_detail public_or_private="private">
+				<vehicle_type>2 wheeler</vehicle_type>
+				<vehicle_name>hayabusa</vehicle_name>
+				<owner_detail>
+					<owner_name>
+						<first_name> Ram </first_name>
+						<middle_name> Kumar</middle_name>
+						<last_name> Verma</last_name>
+					</owner_name>
+					<owner_contact> 896734977</owner_contact>
+					<owner_email> ram@gmail.com </owner_email>
+				</owner_detail>
+			</vehicle_detail>
+			<vehicle_no> TM2200X69</vehicle_no>
+			<parking_price> 40</parking_price>
+		</vehicles>
+
+		<vehicles>
+			<vehicle_detail public_or_private="private">
+				<vehicle_type> 4_wheeler </vehicle_type>
+				<vehicle_name> Fortuner</vehicle_name>
+				<owner_detail>
+					<owner_name>
+						<first_name> Christopher</first_name>
+						<middle_name> Kumar </middle_name>
+						<last_name>  Ali</last_name>
+					</owner_name>
+					<owner_contact> 7679519534 </owner_contact>
+					<owner_email> ali@yahoo.com </owner_email>
+				</owner_detail>
+			</vehicle_detail>
+			<vehicle_no> MP10X0001</vehicle_no>
+			<parking_price> 100</parking_price>
+		</vehicles>
+		<vehicles>
+			<vehicle_detail public_or_private="public">
+				<vehicle_type> 8_wheeler </vehicle_type>
+				<vehicle_name> Volvo_Bus</vehicle_name>
+				<owner_detail>
+					<owner_name>
+						<first_name> Raj </first_name>
+
+						<last_name>  Hans</last_name>
+					</owner_name>
+					<owner_contact> 9979444134 </owner_contact>
+					<owner_email> hans_ki_Chal@yahoo.com </owner_email>
+				</owner_detail>
+			</vehicle_detail>
+			<vehicle_no> HR10A0011</vehicle_no>
+			<parking_price> 500</parking_price>
+		</vehicles>
+
+	</parking>
+	<address>  142, Velachery Main Road, Velachery, Chennai - 600042 </address>
+</shopping_mall>
